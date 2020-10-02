@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Meslo LG S:pixelsize=12:antialias=true:autohint=true"; /* https://github.com/andreberg/Meslo-Font */
+static char *font = "Dina:pixelsize=12:antialias=true:autohint=true"; /* https://github.com/andreberg/Meslo-Font */
 static int borderpx = 2;
 
 /*
