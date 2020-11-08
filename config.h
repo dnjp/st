@@ -5,7 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Dina:pixelsize=12:antialias=true:autohint=true"; /* https://github.com/andreberg/Meslo-Font */
+static char *font = "Dina:pixelsize=12:antialias=true:autohint=true"; 
+/* static char *font = "Meslo LG S DZ:style=Regular:pixelsize=12:antialias=true:autohint=true"; */
 static int borderpx = 2;
 
 /*
@@ -96,14 +97,14 @@ unsigned int tabspaces = 8;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"black",
+	"#222222",
 	"red3",
 	"green3",
 	"yellow3",
 	"blue2",
 	"magenta3",
 	"cyan3",
-	"gray90",
+	"#444444",
 
 	/* 8 bright colors */
 	"gray50",
@@ -113,7 +114,7 @@ static const char *colorname[] = {
 	"#5c5cff",
 	"magenta",
 	"cyan",
-	"white",
+	"#f2f2f2",
 
 	[255] = 0,
 
@@ -127,9 +128,9 @@ static const char *colorname[] = {
  * Default colors (colorname index)
  * foreground, background, cursor, reverse cursor
  */
-unsigned int defaultfg = 7;
-unsigned int defaultbg = 0;
-static unsigned int defaultcs = 256;
+unsigned int defaultfg = 0;
+unsigned int defaultbg = 15;
+static unsigned int defaultcs = 7;
 static unsigned int defaultrcs = 257;
 
 /*
